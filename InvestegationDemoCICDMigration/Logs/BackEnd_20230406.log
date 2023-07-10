@@ -1,0 +1,817 @@
+
+[2023-04-06T10:53:33.189] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1acfcac6-feed-4b5a-a0b8-de481fa0f796) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1acfcac6-feed-4b5a-a0b8-de481fa0f796"]  
+===========================================
+[2023-04-06T10:53:34.320] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1acfcac6-feed-4b5a-a0b8-de481fa0f796) - "----- Response Elapsed time: 1136 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1acfcac6-feed-4b5a-a0b8-de481fa0f796"]  
+===========================================
+[2023-04-06T10:53:41.596] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(3c0b0875-eca0-4aec-98b2-bcceee8bd27b) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "3c0b0875-eca0-4aec-98b2-bcceee8bd27b"]  
+===========================================
+[2023-04-06T10:53:44.315] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3c0b0875-eca0-4aec-98b2-bcceee8bd27b) - "----- Response Elapsed time: 2719 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3c0b0875-eca0-4aec-98b2-bcceee8bd27b"]  
+===========================================
+[2023-04-06T10:53:44.338] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(a2365089-fc52-4e1d-b448-40ef750a8f9f) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "a2365089-fc52-4e1d-b448-40ef750a8f9f"]  
+===========================================
+[2023-04-06T10:53:44.338] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(a2365089-fc52-4e1d-b448-40ef750a8f9f) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "a2365089-fc52-4e1d-b448-40ef750a8f9f"]  
+===========================================
+[2023-04-06T10:53:49.203] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(24bbf310-c2f4-4648-8235-47df9ac32b91) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "24bbf310-c2f4-4648-8235-47df9ac32b91"]  
+===========================================
+[2023-04-06T10:53:49.203] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(02bae107-78a9-4019-b024-9c53f7017a62) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 9 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "02bae107-78a9-4019-b024-9c53f7017a62"]  
+===========================================
+[2023-04-06T10:53:49.295] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(24bbf310-c2f4-4648-8235-47df9ac32b91) - "----- Response Elapsed time: 91 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "24bbf310-c2f4-4648-8235-47df9ac32b91"]  
+===========================================
+[2023-04-06T10:53:49.317] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(7545e539-3074-4308-ad41-bca7476383f3) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "7545e539-3074-4308-ad41-bca7476383f3"]  
+===========================================
+[2023-04-06T10:53:49.318] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(7545e539-3074-4308-ad41-bca7476383f3) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "7545e539-3074-4308-ad41-bca7476383f3"]  
+===========================================
+[2023-04-06T10:53:49.676] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T10:53:49.743] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T10:53:49.759] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(02bae107-78a9-4019-b024-9c53f7017a62) - "----- Response Elapsed time: 556 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "02bae107-78a9-4019-b024-9c53f7017a62"]  
+===========================================
+[2023-04-06T10:53:51.956] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(adf67b9e-0ce7-4cf8-9ddc-b3b6a2005fea) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "adf67b9e-0ce7-4cf8-9ddc-b3b6a2005fea"]  
+===========================================
+[2023-04-06T10:53:51.978] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(adf67b9e-0ce7-4cf8-9ddc-b3b6a2005fea) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "adf67b9e-0ce7-4cf8-9ddc-b3b6a2005fea"]  
+===========================================
+[2023-04-06T10:53:51.993] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(14faca1f-ddec-45cb-8ec9-dd460eb5f289) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "14faca1f-ddec-45cb-8ec9-dd460eb5f289"]  
+===========================================
+[2023-04-06T10:53:51.993] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(14faca1f-ddec-45cb-8ec9-dd460eb5f289) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "14faca1f-ddec-45cb-8ec9-dd460eb5f289"]  
+===========================================
+[2023-04-06T10:53:53.258] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e9db5ab5-7a78-468c-9bf8-92ba671135f5) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e9db5ab5-7a78-468c-9bf8-92ba671135f5"]  
+===========================================
+[2023-04-06T10:53:53.279] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e9db5ab5-7a78-468c-9bf8-92ba671135f5) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e9db5ab5-7a78-468c-9bf8-92ba671135f5"]  
+===========================================
+[2023-04-06T10:53:53.295] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(4d9d0b73-a889-4cc5-98f0-219e8d3e30a7) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "4d9d0b73-a889-4cc5-98f0-219e8d3e30a7"]  
+===========================================
+[2023-04-06T10:53:53.295] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(4d9d0b73-a889-4cc5-98f0-219e8d3e30a7) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "4d9d0b73-a889-4cc5-98f0-219e8d3e30a7"]  
+===========================================
+[2023-04-06T10:54:24.696] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(9114ff78-fb12-442d-a423-6999d4cad354) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "9114ff78-fb12-442d-a423-6999d4cad354"]  
+===========================================
+[2023-04-06T10:54:25.216] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(9114ff78-fb12-442d-a423-6999d4cad354) - "----- Response Elapsed time: 528 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "9114ff78-fb12-442d-a423-6999d4cad354"]  
+===========================================
+[2023-04-06T10:54:27.429] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f76bf8f8-dc9c-4f96-853a-f25e4282e8f5) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f76bf8f8-dc9c-4f96-853a-f25e4282e8f5"]  
+===========================================
+[2023-04-06T10:54:29.367] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f76bf8f8-dc9c-4f96-853a-f25e4282e8f5) - "----- Response Elapsed time: 1938 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f76bf8f8-dc9c-4f96-853a-f25e4282e8f5"]  
+===========================================
+[2023-04-06T10:54:29.418] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(cbf505e6-18b2-4f09-bcef-997d5ad8b9d1) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "cbf505e6-18b2-4f09-bcef-997d5ad8b9d1"]  
+===========================================
+[2023-04-06T10:54:29.418] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(cbf505e6-18b2-4f09-bcef-997d5ad8b9d1) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "cbf505e6-18b2-4f09-bcef-997d5ad8b9d1"]  
+===========================================
+[2023-04-06T10:54:33.170] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f50ff5eb-8d5c-448e-878c-cd441519fee0) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f50ff5eb-8d5c-448e-878c-cd441519fee0"]  
+===========================================
+[2023-04-06T10:54:33.170] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(84cbc691-599e-409a-8100-9264413eba09) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 9 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "84cbc691-599e-409a-8100-9264413eba09"]  
+===========================================
+[2023-04-06T10:54:33.285] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f50ff5eb-8d5c-448e-878c-cd441519fee0) - "----- Response Elapsed time: 114 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f50ff5eb-8d5c-448e-878c-cd441519fee0"]  
+===========================================
+[2023-04-06T10:54:33.310] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(eb6c1e8f-43f2-448c-b776-643260ee9a24) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "eb6c1e8f-43f2-448c-b776-643260ee9a24"]  
+===========================================
+[2023-04-06T10:54:33.317] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(eb6c1e8f-43f2-448c-b776-643260ee9a24) - "----- Response Elapsed time: 6 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "eb6c1e8f-43f2-448c-b776-643260ee9a24"]  
+===========================================
+[2023-04-06T10:54:33.632] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T10:54:33.696] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T10:54:33.715] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(84cbc691-599e-409a-8100-9264413eba09) - "----- Response Elapsed time: 544 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "84cbc691-599e-409a-8100-9264413eba09"]  
+===========================================
+[2023-04-06T10:54:34.804] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(21a81a9e-8feb-4ace-b8fc-01b7cd5ec85e) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "21a81a9e-8feb-4ace-b8fc-01b7cd5ec85e"]  
+===========================================
+[2023-04-06T10:54:34.826] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(21a81a9e-8feb-4ace-b8fc-01b7cd5ec85e) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "21a81a9e-8feb-4ace-b8fc-01b7cd5ec85e"]  
+===========================================
+[2023-04-06T10:54:34.851] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(9a15edd5-4f5a-4583-87fc-c861725e6e24) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "9a15edd5-4f5a-4583-87fc-c861725e6e24"]  
+===========================================
+[2023-04-06T10:54:34.851] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(9a15edd5-4f5a-4583-87fc-c861725e6e24) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "9a15edd5-4f5a-4583-87fc-c861725e6e24"]  
+===========================================
+[2023-04-06T10:54:35.814] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(7aaaa48d-c50c-476e-84ae-195b6ec3c8bb) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "7aaaa48d-c50c-476e-84ae-195b6ec3c8bb"]  
+===========================================
+[2023-04-06T10:54:35.834] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(7aaaa48d-c50c-476e-84ae-195b6ec3c8bb) - "----- Response Elapsed time: 20 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "7aaaa48d-c50c-476e-84ae-195b6ec3c8bb"]  
+===========================================
+[2023-04-06T10:54:35.863] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e49482e2-1572-4009-8de2-09f0ac277952) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e49482e2-1572-4009-8de2-09f0ac277952"]  
+===========================================
+[2023-04-06T10:54:35.863] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e49482e2-1572-4009-8de2-09f0ac277952) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e49482e2-1572-4009-8de2-09f0ac277952"]  
+===========================================
+[2023-04-06T10:54:37.123] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(94771312-f6fc-4a1c-a777-e3b295d0a2e2) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "94771312-f6fc-4a1c-a777-e3b295d0a2e2"]  
+===========================================
+[2023-04-06T10:54:37.141] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(94771312-f6fc-4a1c-a777-e3b295d0a2e2) - "----- Response Elapsed time: 17 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "94771312-f6fc-4a1c-a777-e3b295d0a2e2"]  
+===========================================
+[2023-04-06T10:54:38.647] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(a3970ae0-bbae-498a-9b1c-8e3cdf052381) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "a3970ae0-bbae-498a-9b1c-8e3cdf052381"]  
+===========================================
+[2023-04-06T10:54:38.667] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(a3970ae0-bbae-498a-9b1c-8e3cdf052381) - "----- Response Elapsed time: 20 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "a3970ae0-bbae-498a-9b1c-8e3cdf052381"]  
+===========================================
+[2023-04-06T10:54:38.682] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(4424d8c6-91c1-4332-8858-f6f71c9e155f) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "4424d8c6-91c1-4332-8858-f6f71c9e155f"]  
+===========================================
+[2023-04-06T10:54:38.682] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(4424d8c6-91c1-4332-8858-f6f71c9e155f) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "4424d8c6-91c1-4332-8858-f6f71c9e155f"]  
+===========================================
+[2023-04-06T10:54:40.526] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1d1c3536-d234-4cb8-a9dc-d6b0a102edd7) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Privacy  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1d1c3536-d234-4cb8-a9dc-d6b0a102edd7"]  
+===========================================
+[2023-04-06T10:54:40.546] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1d1c3536-d234-4cb8-a9dc-d6b0a102edd7) - "----- Response Elapsed time: 19 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1d1c3536-d234-4cb8-a9dc-d6b0a102edd7"]  
+===========================================
+[2023-04-06T10:54:41.956] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(3398f275-29c3-4b53-887a-3fc2ab881f83) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "3398f275-29c3-4b53-887a-3fc2ab881f83"]  
+===========================================
+[2023-04-06T10:54:41.978] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3398f275-29c3-4b53-887a-3fc2ab881f83) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3398f275-29c3-4b53-887a-3fc2ab881f83"]  
+===========================================
+[2023-04-06T10:54:41.994] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(ceb4b8d2-2c74-4dee-a69e-30a38f0054c6) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "ceb4b8d2-2c74-4dee-a69e-30a38f0054c6"]  
+===========================================
+[2023-04-06T10:54:41.994] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(ceb4b8d2-2c74-4dee-a69e-30a38f0054c6) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "ceb4b8d2-2c74-4dee-a69e-30a38f0054c6"]  
+===========================================
+[2023-04-06T10:55:44.076] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e68518f7-1324-4661-ae6e-9a46fe45640b) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e68518f7-1324-4661-ae6e-9a46fe45640b"]  
+===========================================
+[2023-04-06T10:55:44.504] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e68518f7-1324-4661-ae6e-9a46fe45640b) - "----- Response Elapsed time: 434 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e68518f7-1324-4661-ae6e-9a46fe45640b"]  
+===========================================
+[2023-04-06T10:55:46.489] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f2b869c8-f3b0-4a8a-8b57-ab60c7b29afd) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f2b869c8-f3b0-4a8a-8b57-ab60c7b29afd"]  
+===========================================
+[2023-04-06T10:55:48.079] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f2b869c8-f3b0-4a8a-8b57-ab60c7b29afd) - "----- Response Elapsed time: 1590 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f2b869c8-f3b0-4a8a-8b57-ab60c7b29afd"]  
+===========================================
+[2023-04-06T10:55:48.117] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(c3226607-7246-40ee-a290-d7fb81a9aa4f) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "c3226607-7246-40ee-a290-d7fb81a9aa4f"]  
+===========================================
+[2023-04-06T10:55:48.118] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(c3226607-7246-40ee-a290-d7fb81a9aa4f) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "c3226607-7246-40ee-a290-d7fb81a9aa4f"]  
+===========================================
+[2023-04-06T10:55:52.342] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(e3975602-52c8-4007-9e94-28d1ce6dfff8) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 8 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "e3975602-52c8-4007-9e94-28d1ce6dfff8"]  
+===========================================
+[2023-04-06T10:55:52.342] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(4618038d-a6c2-4c86-86db-abe7d60516e0) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "4618038d-a6c2-4c86-86db-abe7d60516e0"]  
+===========================================
+[2023-04-06T10:55:52.451] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(4618038d-a6c2-4c86-86db-abe7d60516e0) - "----- Response Elapsed time: 109 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "4618038d-a6c2-4c86-86db-abe7d60516e0"]  
+===========================================
+[2023-04-06T10:55:52.474] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f46bfaae-54ac-4057-891c-6ba6f13b4a55) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f46bfaae-54ac-4057-891c-6ba6f13b4a55"]  
+===========================================
+[2023-04-06T10:55:52.474] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f46bfaae-54ac-4057-891c-6ba6f13b4a55) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f46bfaae-54ac-4057-891c-6ba6f13b4a55"]  
+===========================================
+[2023-04-06T10:55:52.743] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T10:55:52.798] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T10:55:52.809] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e3975602-52c8-4007-9e94-28d1ce6dfff8) - "----- Response Elapsed time: 467 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e3975602-52c8-4007-9e94-28d1ce6dfff8"]  
+===========================================
+[2023-04-06T10:55:58.212] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(508322d7-6853-46f0-b2db-2f214ec6b398) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "508322d7-6853-46f0-b2db-2f214ec6b398"]  
+===========================================
+[2023-04-06T10:55:58.238] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(508322d7-6853-46f0-b2db-2f214ec6b398) - "----- Response Elapsed time: 25 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "508322d7-6853-46f0-b2db-2f214ec6b398"]  
+===========================================
+[2023-04-06T10:55:58.258] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(9bd7690c-9fa1-4150-802d-380647a208b5) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "9bd7690c-9fa1-4150-802d-380647a208b5"]  
+===========================================
+[2023-04-06T10:55:58.258] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(9bd7690c-9fa1-4150-802d-380647a208b5) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "9bd7690c-9fa1-4150-802d-380647a208b5"]  
+===========================================
+[2023-04-06T10:55:59.506] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(5087e45c-5870-4bbd-a62f-01299ac4d3da) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "5087e45c-5870-4bbd-a62f-01299ac4d3da"]  
+===========================================
+[2023-04-06T10:55:59.529] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(5087e45c-5870-4bbd-a62f-01299ac4d3da) - "----- Response Elapsed time: 23 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "5087e45c-5870-4bbd-a62f-01299ac4d3da"]  
+===========================================
+[2023-04-06T10:55:59.544] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(ac50b868-4e03-4ee3-b962-ed4c31fcabeb) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "ac50b868-4e03-4ee3-b962-ed4c31fcabeb"]  
+===========================================
+[2023-04-06T10:55:59.544] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(ac50b868-4e03-4ee3-b962-ed4c31fcabeb) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "ac50b868-4e03-4ee3-b962-ed4c31fcabeb"]  
+===========================================
+[2023-04-06T10:56:28.014] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(52d9a792-fe21-4efe-af88-4753a74b411e) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "52d9a792-fe21-4efe-af88-4753a74b411e"]  
+===========================================
+[2023-04-06T10:56:28.131] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(52d9a792-fe21-4efe-af88-4753a74b411e) - "----- Response Elapsed time: 117 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "52d9a792-fe21-4efe-af88-4753a74b411e"]  
+===========================================
+[2023-04-06T10:56:28.165] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(64a2b862-c52f-4a9b-be6d-adc1d4fb0ebd) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "64a2b862-c52f-4a9b-be6d-adc1d4fb0ebd"]  
+===========================================
+[2023-04-06T10:56:28.166] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(64a2b862-c52f-4a9b-be6d-adc1d4fb0ebd) - "----- Response Elapsed time: 1 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "64a2b862-c52f-4a9b-be6d-adc1d4fb0ebd"]  
+===========================================
+[2023-04-06T10:56:31.856] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(3f4fa1e7-33b4-4104-9ec9-8c25fb0f2c97) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Delete/1??ToDoName=test  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "3f4fa1e7-33b4-4104-9ec9-8c25fb0f2c97"]  
+===========================================
+[2023-04-06T10:56:32.255] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3f4fa1e7-33b4-4104-9ec9-8c25fb0f2c97) - "----- Response Elapsed time: 399 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3f4fa1e7-33b4-4104-9ec9-8c25fb0f2c97"]  
+===========================================
+[2023-04-06T10:56:32.259] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(14190003-b4ec-4724-8ed8-f36a2fe38467) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "14190003-b4ec-4724-8ed8-f36a2fe38467"]  
+===========================================
+[2023-04-06T10:56:32.281] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(14190003-b4ec-4724-8ed8-f36a2fe38467) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "14190003-b4ec-4724-8ed8-f36a2fe38467"]  
+===========================================
+[2023-04-06T10:56:32.297] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(8e8a727f-b4c1-4dc2-99a7-3d5819c7bd04) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "8e8a727f-b4c1-4dc2-99a7-3d5819c7bd04"]  
+===========================================
+[2023-04-06T10:56:32.297] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(8e8a727f-b4c1-4dc2-99a7-3d5819c7bd04) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "8e8a727f-b4c1-4dc2-99a7-3d5819c7bd04"]  
+===========================================
+[2023-04-06T10:56:34.118] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(0acca7f9-ba39-4f9f-9de5-ab85f85c9e4a) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "0acca7f9-ba39-4f9f-9de5-ab85f85c9e4a"]  
+===========================================
+[2023-04-06T10:56:34.152] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(0acca7f9-ba39-4f9f-9de5-ab85f85c9e4a) - "----- Response Elapsed time: 34 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "0acca7f9-ba39-4f9f-9de5-ab85f85c9e4a"]  
+===========================================
+[2023-04-06T10:56:34.167] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(6b9d8868-6138-41d6-9242-545f172e5406) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "6b9d8868-6138-41d6-9242-545f172e5406"]  
+===========================================
+[2023-04-06T10:56:34.168] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(6b9d8868-6138-41d6-9242-545f172e5406) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "6b9d8868-6138-41d6-9242-545f172e5406"]  
+===========================================
+[2023-04-06T10:56:37.880] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(aa8b40b4-b720-4b21-850f-4319601bdf15) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 9 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "aa8b40b4-b720-4b21-850f-4319601bdf15"]  
+===========================================
+[2023-04-06T10:56:37.904] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f5f4e287-76a2-4414-8668-e3f1bc3fff2a) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f5f4e287-76a2-4414-8668-e3f1bc3fff2a"]  
+===========================================
+[2023-04-06T10:56:37.926] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f5f4e287-76a2-4414-8668-e3f1bc3fff2a) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f5f4e287-76a2-4414-8668-e3f1bc3fff2a"]  
+===========================================
+[2023-04-06T10:56:37.928] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T10:56:37.967] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T10:56:37.967] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(aa8b40b4-b720-4b21-850f-4319601bdf15) - "----- Response Elapsed time: 87 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "aa8b40b4-b720-4b21-850f-4319601bdf15"]  
+===========================================
+[2023-04-06T10:56:37.983] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(05b177b0-d9de-427a-9ed5-5ca455b97fdc) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "05b177b0-d9de-427a-9ed5-5ca455b97fdc"]  
+===========================================
+[2023-04-06T10:56:37.984] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(05b177b0-d9de-427a-9ed5-5ca455b97fdc) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "05b177b0-d9de-427a-9ed5-5ca455b97fdc"]  
+===========================================
+[2023-04-06T10:56:39.507] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(71b0ad9d-0c95-4f21-944c-21bf4c65ab1f) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "71b0ad9d-0c95-4f21-944c-21bf4c65ab1f"]  
+===========================================
+[2023-04-06T10:56:39.537] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(71b0ad9d-0c95-4f21-944c-21bf4c65ab1f) - "----- Response Elapsed time: 30 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "71b0ad9d-0c95-4f21-944c-21bf4c65ab1f"]  
+===========================================
+[2023-04-06T10:56:39.551] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(ea1522a4-5098-4bee-8df7-2d7b0deda9ea) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "ea1522a4-5098-4bee-8df7-2d7b0deda9ea"]  
+===========================================
+[2023-04-06T10:56:39.551] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(ea1522a4-5098-4bee-8df7-2d7b0deda9ea) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "ea1522a4-5098-4bee-8df7-2d7b0deda9ea"]  
+===========================================
+[2023-04-06T10:56:40.406] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(faa3207a-8c4f-4e62-876c-2f202fe851ae) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "faa3207a-8c4f-4e62-876c-2f202fe851ae"]  
+===========================================
+[2023-04-06T10:56:40.429] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(faa3207a-8c4f-4e62-876c-2f202fe851ae) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "faa3207a-8c4f-4e62-876c-2f202fe851ae"]  
+===========================================
+[2023-04-06T10:56:40.451] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(205d5347-2ae0-432b-8877-59a4a4b9d774) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "205d5347-2ae0-432b-8877-59a4a4b9d774"]  
+===========================================
+[2023-04-06T10:56:40.451] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(205d5347-2ae0-432b-8877-59a4a4b9d774) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "205d5347-2ae0-432b-8877-59a4a4b9d774"]  
+===========================================
+[2023-04-06T10:57:09.279] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(bbfe8a59-24ce-4be0-8dfd-329be3e8e1c0) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "bbfe8a59-24ce-4be0-8dfd-329be3e8e1c0"]  
+===========================================
+[2023-04-06T10:57:09.333] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(bbfe8a59-24ce-4be0-8dfd-329be3e8e1c0) - "----- Response Elapsed time: 54 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "bbfe8a59-24ce-4be0-8dfd-329be3e8e1c0"]  
+===========================================
+[2023-04-06T10:57:09.361] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(2fa12616-2959-4012-b2f9-fd4be122a22a) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "2fa12616-2959-4012-b2f9-fd4be122a22a"]  
+===========================================
+[2023-04-06T10:57:09.361] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(2fa12616-2959-4012-b2f9-fd4be122a22a) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "2fa12616-2959-4012-b2f9-fd4be122a22a"]  
+===========================================
+[2023-04-06T10:57:10.317] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(7ecade23-0d26-432b-b024-7d3c94058cf6) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "7ecade23-0d26-432b-b024-7d3c94058cf6"]  
+===========================================
+[2023-04-06T10:57:10.345] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(7ecade23-0d26-432b-b024-7d3c94058cf6) - "----- Response Elapsed time: 28 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "7ecade23-0d26-432b-b024-7d3c94058cf6"]  
+===========================================
+[2023-04-06T10:57:10.363] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e7fcdbf6-57a2-4799-9e97-1a271811e206) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e7fcdbf6-57a2-4799-9e97-1a271811e206"]  
+===========================================
+[2023-04-06T10:57:10.363] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e7fcdbf6-57a2-4799-9e97-1a271811e206) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e7fcdbf6-57a2-4799-9e97-1a271811e206"]  
+===========================================
+[2023-04-06T10:57:35.092] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(3881c66f-927c-48a0-8d88-4fd672d94cae) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "3881c66f-927c-48a0-8d88-4fd672d94cae"]  
+===========================================
+[2023-04-06T10:57:35.147] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3881c66f-927c-48a0-8d88-4fd672d94cae) - "----- Response Elapsed time: 54 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3881c66f-927c-48a0-8d88-4fd672d94cae"]  
+===========================================
+[2023-04-06T10:57:35.179] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(940e9bc7-0d58-418c-836c-28f2995f65f4) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "940e9bc7-0d58-418c-836c-28f2995f65f4"]  
+===========================================
+[2023-04-06T10:57:35.179] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(940e9bc7-0d58-418c-836c-28f2995f65f4) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "940e9bc7-0d58-418c-836c-28f2995f65f4"]  
+===========================================
+[2023-04-06T10:57:40.570] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(3f22725d-b030-4ed9-9452-4bf410ced701) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 10 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "3f22725d-b030-4ed9-9452-4bf410ced701"]  
+===========================================
+[2023-04-06T10:57:40.588] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1901384c-3f6e-42a0-a15b-9a5305462cce) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1901384c-3f6e-42a0-a15b-9a5305462cce"]  
+===========================================
+[2023-04-06T10:57:40.612] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1901384c-3f6e-42a0-a15b-9a5305462cce) - "----- Response Elapsed time: 23 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1901384c-3f6e-42a0-a15b-9a5305462cce"]  
+===========================================
+[2023-04-06T10:57:40.635] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3f22725d-b030-4ed9-9452-4bf410ced701) - "----- Response Elapsed time: 65 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3f22725d-b030-4ed9-9452-4bf410ced701"]  
+===========================================
+[2023-04-06T10:57:40.644] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(aee05669-79f2-4596-be62-5dbc6db2d2d2) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "aee05669-79f2-4596-be62-5dbc6db2d2d2"]  
+===========================================
+[2023-04-06T10:57:40.644] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(aee05669-79f2-4596-be62-5dbc6db2d2d2) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "aee05669-79f2-4596-be62-5dbc6db2d2d2"]  
+===========================================
+[2023-04-06T10:57:43.092] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(eef281bf-7a5d-4e14-b48b-23204c2b46e7) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "eef281bf-7a5d-4e14-b48b-23204c2b46e7"]  
+===========================================
+[2023-04-06T10:57:43.116] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(eef281bf-7a5d-4e14-b48b-23204c2b46e7) - "----- Response Elapsed time: 24 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "eef281bf-7a5d-4e14-b48b-23204c2b46e7"]  
+===========================================
+[2023-04-06T10:57:43.133] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(4192e459-0053-46b4-a649-ab7f5093d6fc) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "4192e459-0053-46b4-a649-ab7f5093d6fc"]  
+===========================================
+[2023-04-06T10:57:43.133] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(4192e459-0053-46b4-a649-ab7f5093d6fc) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "4192e459-0053-46b4-a649-ab7f5093d6fc"]  
+===========================================
+[2023-04-06T10:57:46.103] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(07dde0c3-5bc2-4669-b8b8-72ca0b5a476b) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "07dde0c3-5bc2-4669-b8b8-72ca0b5a476b"]  
+===========================================
+[2023-04-06T10:57:46.129] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(07dde0c3-5bc2-4669-b8b8-72ca0b5a476b) - "----- Response Elapsed time: 25 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "07dde0c3-5bc2-4669-b8b8-72ca0b5a476b"]  
+===========================================
+[2023-04-06T10:57:46.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(8392b6f2-fb03-40a8-894d-5ca999522b2c) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "8392b6f2-fb03-40a8-894d-5ca999522b2c"]  
+===========================================
+[2023-04-06T10:57:46.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(8392b6f2-fb03-40a8-894d-5ca999522b2c) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "8392b6f2-fb03-40a8-894d-5ca999522b2c"]  
+===========================================
+[2023-04-06T10:57:48.022] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(a4582c25-5116-4125-b35c-850faaff684a) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Edit??todoName=&id=2  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "a4582c25-5116-4125-b35c-850faaff684a"]  
+===========================================
+[2023-04-06T10:57:48.054] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(a4582c25-5116-4125-b35c-850faaff684a) - "----- Response Elapsed time: 31 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "a4582c25-5116-4125-b35c-850faaff684a"]  
+===========================================
+[2023-04-06T10:57:48.057] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(3533b624-33a5-4d9e-98fb-9d898093f3b9) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "3533b624-33a5-4d9e-98fb-9d898093f3b9"]  
+===========================================
+[2023-04-06T10:57:48.078] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3533b624-33a5-4d9e-98fb-9d898093f3b9) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3533b624-33a5-4d9e-98fb-9d898093f3b9"]  
+===========================================
+[2023-04-06T10:57:48.091] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(04a6f48f-c442-4b77-8dd8-73341b34df4b) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "04a6f48f-c442-4b77-8dd8-73341b34df4b"]  
+===========================================
+[2023-04-06T10:57:48.091] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(04a6f48f-c442-4b77-8dd8-73341b34df4b) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "04a6f48f-c442-4b77-8dd8-73341b34df4b"]  
+===========================================
+[2023-04-06T10:57:53.282] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e97342f6-a62b-4160-be44-c90a4d591afb) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Edit??todoName=ok&id=2  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e97342f6-a62b-4160-be44-c90a4d591afb"]  
+===========================================
+[2023-04-06T10:57:53.305] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e97342f6-a62b-4160-be44-c90a4d591afb) - "----- Response Elapsed time: 23 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e97342f6-a62b-4160-be44-c90a4d591afb"]  
+===========================================
+[2023-04-06T10:57:53.308] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(32d7aaea-ce52-4c8c-a492-4e952407ba1f) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "32d7aaea-ce52-4c8c-a492-4e952407ba1f"]  
+===========================================
+[2023-04-06T10:57:53.331] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(32d7aaea-ce52-4c8c-a492-4e952407ba1f) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "32d7aaea-ce52-4c8c-a492-4e952407ba1f"]  
+===========================================
+[2023-04-06T10:57:53.375] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f408c563-864e-483c-a20f-ac52d8c2e674) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f408c563-864e-483c-a20f-ac52d8c2e674"]  
+===========================================
+[2023-04-06T10:57:53.375] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f408c563-864e-483c-a20f-ac52d8c2e674) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f408c563-864e-483c-a20f-ac52d8c2e674"]  
+===========================================
+[2023-04-06T10:58:00.157] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(91fd9d02-5f45-4d22-bbf1-2bbbebf522b4) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 10 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "91fd9d02-5f45-4d22-bbf1-2bbbebf522b4"]  
+===========================================
+[2023-04-06T10:58:00.181] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(67a5d825-4e84-431c-adc4-6411fc46dd99) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "67a5d825-4e84-431c-adc4-6411fc46dd99"]  
+===========================================
+[2023-04-06T10:58:00.201] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(91fd9d02-5f45-4d22-bbf1-2bbbebf522b4) - "----- Response Elapsed time: 43 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "91fd9d02-5f45-4d22-bbf1-2bbbebf522b4"]  
+===========================================
+[2023-04-06T10:58:00.206] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(67a5d825-4e84-431c-adc4-6411fc46dd99) - "----- Response Elapsed time: 24 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "67a5d825-4e84-431c-adc4-6411fc46dd99"]  
+===========================================
+[2023-04-06T10:58:00.210] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(5929767b-ca02-4b9b-ad55-b681d663820f) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "5929767b-ca02-4b9b-ad55-b681d663820f"]  
+===========================================
+[2023-04-06T10:58:00.228] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1b12cf1a-a8b6-4e61-a52c-b9a73d7edcdf) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1b12cf1a-a8b6-4e61-a52c-b9a73d7edcdf"]  
+===========================================
+[2023-04-06T10:58:00.228] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1b12cf1a-a8b6-4e61-a52c-b9a73d7edcdf) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1b12cf1a-a8b6-4e61-a52c-b9a73d7edcdf"]  
+===========================================
+[2023-04-06T10:58:00.237] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(5929767b-ca02-4b9b-ad55-b681d663820f) - "----- Response Elapsed time: 26 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "5929767b-ca02-4b9b-ad55-b681d663820f"]  
+===========================================
+[2023-04-06T10:58:06.073] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(dadbf9a5-8fa5-4d0e-b064-77abefd1c22e) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Edit??todoName=no&id=2  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "dadbf9a5-8fa5-4d0e-b064-77abefd1c22e"]  
+===========================================
+[2023-04-06T10:58:06.104] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(dadbf9a5-8fa5-4d0e-b064-77abefd1c22e) - "----- Response Elapsed time: 30 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "dadbf9a5-8fa5-4d0e-b064-77abefd1c22e"]  
+===========================================
+[2023-04-06T10:58:06.107] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(7abc13f6-d301-4ae8-aaf5-72867cc2ca38) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "7abc13f6-d301-4ae8-aaf5-72867cc2ca38"]  
+===========================================
+[2023-04-06T10:58:06.130] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(7abc13f6-d301-4ae8-aaf5-72867cc2ca38) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "7abc13f6-d301-4ae8-aaf5-72867cc2ca38"]  
+===========================================
+[2023-04-06T10:58:06.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(9d2ce6bf-19b1-4afa-8758-e563f935bf33) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "9d2ce6bf-19b1-4afa-8758-e563f935bf33"]  
+===========================================
+[2023-04-06T10:58:06.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(9d2ce6bf-19b1-4afa-8758-e563f935bf33) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "9d2ce6bf-19b1-4afa-8758-e563f935bf33"]  
+===========================================
+[2023-04-06T10:58:08.700] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(01da3ecb-b506-48f1-9271-64eae6ff62a4) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Delete/2??ToDoName=no  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "01da3ecb-b506-48f1-9271-64eae6ff62a4"]  
+===========================================
+[2023-04-06T10:58:08.725] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(01da3ecb-b506-48f1-9271-64eae6ff62a4) - "----- Response Elapsed time: 25 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "01da3ecb-b506-48f1-9271-64eae6ff62a4"]  
+===========================================
+[2023-04-06T10:58:08.729] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(2e2d615c-ba71-435b-83a6-fec7d407dc03) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "2e2d615c-ba71-435b-83a6-fec7d407dc03"]  
+===========================================
+[2023-04-06T10:58:08.751] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(2e2d615c-ba71-435b-83a6-fec7d407dc03) - "----- Response Elapsed time: 22 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "2e2d615c-ba71-435b-83a6-fec7d407dc03"]  
+===========================================
+[2023-04-06T10:58:08.765] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(cf789bcb-4524-4588-8b42-43ad60295e38) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "cf789bcb-4524-4588-8b42-43ad60295e38"]  
+===========================================
+[2023-04-06T10:58:08.765] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(cf789bcb-4524-4588-8b42-43ad60295e38) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "cf789bcb-4524-4588-8b42-43ad60295e38"]  
+===========================================
+[2023-04-06T10:58:13.082] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(b487180d-8f4c-483a-9ea8-aad7b89bad28) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Delete/3??ToDoName=hello  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "b487180d-8f4c-483a-9ea8-aad7b89bad28"]  
+===========================================
+[2023-04-06T10:58:13.104] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(b487180d-8f4c-483a-9ea8-aad7b89bad28) - "----- Response Elapsed time: 22 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "b487180d-8f4c-483a-9ea8-aad7b89bad28"]  
+===========================================
+[2023-04-06T10:58:13.106] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e73c5cfe-d9a1-41ee-a410-333376add5c8) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e73c5cfe-d9a1-41ee-a410-333376add5c8"]  
+===========================================
+[2023-04-06T10:58:13.128] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e73c5cfe-d9a1-41ee-a410-333376add5c8) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e73c5cfe-d9a1-41ee-a410-333376add5c8"]  
+===========================================
+[2023-04-06T10:58:13.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(ac7af88d-0a46-46de-a981-f9f606837b40) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "ac7af88d-0a46-46de-a981-f9f606837b40"]  
+===========================================
+[2023-04-06T10:58:13.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(ac7af88d-0a46-46de-a981-f9f606837b40) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "ac7af88d-0a46-46de-a981-f9f606837b40"]  
+===========================================
+[2023-04-06T10:58:14.352] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e4e0478f-5e4d-4d27-91dc-c739f9dedb05) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Delete/1??ToDoName=test  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e4e0478f-5e4d-4d27-91dc-c739f9dedb05"]  
+===========================================
+[2023-04-06T10:58:14.373] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e4e0478f-5e4d-4d27-91dc-c739f9dedb05) - "----- Response Elapsed time: 21 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e4e0478f-5e4d-4d27-91dc-c739f9dedb05"]  
+===========================================
+[2023-04-06T10:58:14.376] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(741ae314-1fa3-4ea2-9cb8-6aa059b87ce8) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "741ae314-1fa3-4ea2-9cb8-6aa059b87ce8"]  
+===========================================
+[2023-04-06T10:58:14.397] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(741ae314-1fa3-4ea2-9cb8-6aa059b87ce8) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "741ae314-1fa3-4ea2-9cb8-6aa059b87ce8"]  
+===========================================
+[2023-04-06T10:58:14.412] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(ee4c2496-f94e-450e-9541-d46982deaf13) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "ee4c2496-f94e-450e-9541-d46982deaf13"]  
+===========================================
+[2023-04-06T10:58:14.412] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(ee4c2496-f94e-450e-9541-d46982deaf13) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "ee4c2496-f94e-450e-9541-d46982deaf13"]  
+===========================================
+[2023-04-06T10:58:18.229] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(76ea0436-2770-498a-91ce-3b1a335467e5) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 8 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "76ea0436-2770-498a-91ce-3b1a335467e5"]  
+===========================================
+[2023-04-06T10:58:18.246] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(6edaa8e7-6ace-4b91-8cd2-d5e6caeb82d8) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "6edaa8e7-6ace-4b91-8cd2-d5e6caeb82d8"]  
+===========================================
+[2023-04-06T10:58:18.263] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T10:58:18.313] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(6edaa8e7-6ace-4b91-8cd2-d5e6caeb82d8) - "----- Response Elapsed time: 66 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "6edaa8e7-6ace-4b91-8cd2-d5e6caeb82d8"]  
+===========================================
+[2023-04-06T10:58:18.313] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T10:58:18.314] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(76ea0436-2770-498a-91ce-3b1a335467e5) - "----- Response Elapsed time: 84 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "76ea0436-2770-498a-91ce-3b1a335467e5"]  
+===========================================
+[2023-04-06T10:58:18.330] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(611fd73f-1b5d-495e-9e50-41d3c5df7e7b) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "611fd73f-1b5d-495e-9e50-41d3c5df7e7b"]  
+===========================================
+[2023-04-06T10:58:18.331] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(611fd73f-1b5d-495e-9e50-41d3c5df7e7b) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "611fd73f-1b5d-495e-9e50-41d3c5df7e7b"]  
+===========================================
+[2023-04-06T10:58:19.769] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(2e2d99a5-9d0e-45f4-9738-af3cc39ec135) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "2e2d99a5-9d0e-45f4-9738-af3cc39ec135"]  
+===========================================
+[2023-04-06T10:58:19.789] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(2e2d99a5-9d0e-45f4-9738-af3cc39ec135) - "----- Response Elapsed time: 20 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "2e2d99a5-9d0e-45f4-9738-af3cc39ec135"]  
+===========================================
+[2023-04-06T10:58:19.802] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(04afd6f9-aef8-439c-9a6b-9c1c4c17b51d) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "04afd6f9-aef8-439c-9a6b-9c1c4c17b51d"]  
+===========================================
+[2023-04-06T10:58:19.802] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(04afd6f9-aef8-439c-9a6b-9c1c4c17b51d) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "04afd6f9-aef8-439c-9a6b-9c1c4c17b51d"]  
+===========================================
+[2023-04-06T10:58:59.284] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(d6f073ab-59c1-4833-908a-130a05b0abc7) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "d6f073ab-59c1-4833-908a-130a05b0abc7"]  
+===========================================
+[2023-04-06T10:58:59.691] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(d6f073ab-59c1-4833-908a-130a05b0abc7) - "----- Response Elapsed time: 412 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "d6f073ab-59c1-4833-908a-130a05b0abc7"]  
+===========================================
+[2023-04-06T10:59:01.615] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1e29a34b-be4e-48e6-b2ad-48778d805377) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1e29a34b-be4e-48e6-b2ad-48778d805377"]  
+===========================================
+[2023-04-06T10:59:03.167] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1e29a34b-be4e-48e6-b2ad-48778d805377) - "----- Response Elapsed time: 1551 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1e29a34b-be4e-48e6-b2ad-48778d805377"]  
+===========================================
+[2023-04-06T10:59:03.201] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1b7ca07a-26a2-4818-8b0e-8cd6c54238b7) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1b7ca07a-26a2-4818-8b0e-8cd6c54238b7"]  
+===========================================
+[2023-04-06T10:59:03.201] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1b7ca07a-26a2-4818-8b0e-8cd6c54238b7) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1b7ca07a-26a2-4818-8b0e-8cd6c54238b7"]  
+===========================================
+[2023-04-06T10:59:06.323] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(44551658-b73a-4593-9a3f-371ceb1da42c) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "44551658-b73a-4593-9a3f-371ceb1da42c"]  
+===========================================
+[2023-04-06T10:59:06.323] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(77ca59c3-fbf9-44fd-aa5e-14e44b9637ee) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 6 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "77ca59c3-fbf9-44fd-aa5e-14e44b9637ee"]  
+===========================================
+[2023-04-06T10:59:09.145] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(44551658-b73a-4593-9a3f-371ceb1da42c) - "----- Response Elapsed time: 2821 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "44551658-b73a-4593-9a3f-371ceb1da42c"]  
+===========================================
+[2023-04-06T10:59:09.243] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(d55886f9-ccca-4d2c-bb64-9e53563568db) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "d55886f9-ccca-4d2c-bb64-9e53563568db"]  
+===========================================
+[2023-04-06T10:59:09.244] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(d55886f9-ccca-4d2c-bb64-9e53563568db) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "d55886f9-ccca-4d2c-bb64-9e53563568db"]  
+===========================================
+[2023-04-06T10:59:09.506] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T10:59:09.626] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T10:59:14.206] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(77ca59c3-fbf9-44fd-aa5e-14e44b9637ee) - "----- Response Elapsed time: 3312 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "77ca59c3-fbf9-44fd-aa5e-14e44b9637ee"]  
+===========================================
+[2023-04-06T11:00:54.478] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(c5f3d92d-2dc8-469a-aef4-21bf045e3b30) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "c5f3d92d-2dc8-469a-aef4-21bf045e3b30"]  
+===========================================
+[2023-04-06T11:00:54.891] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(c5f3d92d-2dc8-469a-aef4-21bf045e3b30) - "----- Response Elapsed time: 418 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "c5f3d92d-2dc8-469a-aef4-21bf045e3b30"]  
+===========================================
+[2023-04-06T11:00:56.397] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(99ff5e7b-93ad-42d5-877b-d45b05e54c47) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "99ff5e7b-93ad-42d5-877b-d45b05e54c47"]  
+===========================================
+[2023-04-06T11:00:57.937] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(99ff5e7b-93ad-42d5-877b-d45b05e54c47) - "----- Response Elapsed time: 1540 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "99ff5e7b-93ad-42d5-877b-d45b05e54c47"]  
+===========================================
+[2023-04-06T11:00:58.002] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(36c50c34-5787-434f-9ae5-47f1619b543e) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "36c50c34-5787-434f-9ae5-47f1619b543e"]  
+===========================================
+[2023-04-06T11:00:58.002] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(36c50c34-5787-434f-9ae5-47f1619b543e) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "36c50c34-5787-434f-9ae5-47f1619b543e"]  
+===========================================
+[2023-04-06T11:01:01.479] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(b9385d52-7edb-4a15-8d5c-6966ad7df991) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 9 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "b9385d52-7edb-4a15-8d5c-6966ad7df991"]  
+===========================================
+[2023-04-06T11:01:01.480] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(3cca2345-e9f4-4b60-a604-cddc78d8617d) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "3cca2345-e9f4-4b60-a604-cddc78d8617d"]  
+===========================================
+[2023-04-06T11:01:03.528] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(3cca2345-e9f4-4b60-a604-cddc78d8617d) - "----- Response Elapsed time: 2047 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "3cca2345-e9f4-4b60-a604-cddc78d8617d"]  
+===========================================
+[2023-04-06T11:01:03.602] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(62d7549f-abcd-4b3c-b1a8-a3a1f958c0c1) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "62d7549f-abcd-4b3c-b1a8-a3a1f958c0c1"]  
+===========================================
+[2023-04-06T11:01:03.602] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(62d7549f-abcd-4b3c-b1a8-a3a1f958c0c1) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "62d7549f-abcd-4b3c-b1a8-a3a1f958c0c1"]  
+===========================================
+[2023-04-06T11:01:03.914] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T11:01:04.031] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T11:01:07.382] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(b9385d52-7edb-4a15-8d5c-6966ad7df991) - "----- Response Elapsed time: 2565 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "b9385d52-7edb-4a15-8d5c-6966ad7df991"]  
+===========================================
+[2023-04-06T11:02:40.872] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(8a8eb044-ce27-49d8-bfdb-2d747800d579) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "8a8eb044-ce27-49d8-bfdb-2d747800d579"]  
+===========================================
+[2023-04-06T11:02:41.281] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(8a8eb044-ce27-49d8-bfdb-2d747800d579) - "----- Response Elapsed time: 414 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "8a8eb044-ce27-49d8-bfdb-2d747800d579"]  
+===========================================
+[2023-04-06T11:02:44.793] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(72228f93-978f-4499-bca7-90a16f415396) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "72228f93-978f-4499-bca7-90a16f415396"]  
+===========================================
+[2023-04-06T11:02:46.336] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(72228f93-978f-4499-bca7-90a16f415396) - "----- Response Elapsed time: 1542 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "72228f93-978f-4499-bca7-90a16f415396"]  
+===========================================
+[2023-04-06T11:02:46.370] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(4dce2e20-76c7-4a2c-9861-be68a9ae3cc8) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "4dce2e20-76c7-4a2c-9861-be68a9ae3cc8"]  
+===========================================
+[2023-04-06T11:02:46.370] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(4dce2e20-76c7-4a2c-9861-be68a9ae3cc8) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "4dce2e20-76c7-4a2c-9861-be68a9ae3cc8"]  
+===========================================
+[2023-04-06T11:02:49.455] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(38e2ead0-db94-43cb-9293-3b134ca4dc9d) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 7 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "38e2ead0-db94-43cb-9293-3b134ca4dc9d"]  
+===========================================
+[2023-04-06T11:02:49.455] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(55704e46-dc23-474c-9a6e-8023dc4c90b9) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "55704e46-dc23-474c-9a6e-8023dc4c90b9"]  
+===========================================
+[2023-04-06T11:02:52.280] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(55704e46-dc23-474c-9a6e-8023dc4c90b9) - "----- Response Elapsed time: 2825 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "55704e46-dc23-474c-9a6e-8023dc4c90b9"]  
+===========================================
+[2023-04-06T11:02:52.316] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(5bca6317-1060-4cb5-9d08-e2b821bb08ba) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "5bca6317-1060-4cb5-9d08-e2b821bb08ba"]  
+===========================================
+[2023-04-06T11:02:52.316] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(5bca6317-1060-4cb5-9d08-e2b821bb08ba) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "5bca6317-1060-4cb5-9d08-e2b821bb08ba"]  
+===========================================
+[2023-04-06T11:02:52.688] ERROR - ([Microsoft.EntityFrameworkCore.Query][::]) [() - An exception occurred while iterating over the results of a query for context type '"DevOpsWebApp.Data.AppDbContext"'."
+""System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()"] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ 
+===========================================
+[2023-04-06T11:02:52.807] ERROR - ([Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware][::]) [() - An unhandled exception has occurred while executing the request.] System.InvalidOperationException: Sequence contains no elements.
+   at lambda_method43(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method44(Closure , QueryContext )
+   at DevOpsWebApp.Controllers.HomeController.Create(String name) in D:\MAUIproject\SimpleWebSite\Controllers\HomeController.cs:line 52
+   at lambda_method37(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 
+===========================================
+[2023-04-06T11:03:16.154] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(38e2ead0-db94-43cb-9293-3b134ca4dc9d) - "----- Response Elapsed time: 3367 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "38e2ead0-db94-43cb-9293-3b134ca4dc9d"]  
+===========================================
+[2023-04-06T11:06:19.162] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(6074b607-44c1-4f5c-82c1-860aa92ad4d4) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "6074b607-44c1-4f5c-82c1-860aa92ad4d4"]  
+===========================================
+[2023-04-06T11:06:19.566] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(6074b607-44c1-4f5c-82c1-860aa92ad4d4) - "----- Response Elapsed time: 409 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "6074b607-44c1-4f5c-82c1-860aa92ad4d4"]  
+===========================================
+[2023-04-06T11:06:24.383] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(d10411eb-d58b-417e-9d90-ba428715d80a) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "d10411eb-d58b-417e-9d90-ba428715d80a"]  
+===========================================
+[2023-04-06T11:06:25.912] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(d10411eb-d58b-417e-9d90-ba428715d80a) - "----- Response Elapsed time: 1528 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "d10411eb-d58b-417e-9d90-ba428715d80a"]  
+===========================================
+[2023-04-06T11:06:25.942] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e9872e06-21eb-491f-912a-6ebd4690e0d3) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e9872e06-21eb-491f-912a-6ebd4690e0d3"]  
+===========================================
+[2023-04-06T11:06:25.942] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e9872e06-21eb-491f-912a-6ebd4690e0d3) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e9872e06-21eb-491f-912a-6ebd4690e0d3"]  
+===========================================
+[2023-04-06T11:06:30.152] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(ab63de94-457d-4095-a8b6-26f05c7b90be) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 6 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "ab63de94-457d-4095-a8b6-26f05c7b90be"]  
+===========================================
+[2023-04-06T11:06:30.156] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(b186bd9a-c821-4523-9a84-c107d9dee539) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "b186bd9a-c821-4523-9a84-c107d9dee539"]  
+===========================================
+[2023-04-06T11:06:32.120] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(b186bd9a-c821-4523-9a84-c107d9dee539) - "----- Response Elapsed time: 1964 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "b186bd9a-c821-4523-9a84-c107d9dee539"]  
+===========================================
+[2023-04-06T11:06:41.543] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(2c835655-a027-48f9-94c9-b8adb7f29277) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "2c835655-a027-48f9-94c9-b8adb7f29277"]  
+===========================================
+[2023-04-06T11:06:41.543] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(2c835655-a027-48f9-94c9-b8adb7f29277) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "2c835655-a027-48f9-94c9-b8adb7f29277"]  
+===========================================
+[2023-04-06T11:06:41.855] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(ab63de94-457d-4095-a8b6-26f05c7b90be) - "----- Response Elapsed time: 11702 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "ab63de94-457d-4095-a8b6-26f05c7b90be"]  
+===========================================
+[2023-04-06T11:06:45.367] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(081e5741-41c0-4273-bc6a-9d2176ebadc9) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "081e5741-41c0-4273-bc6a-9d2176ebadc9"]  
+===========================================
+[2023-04-06T11:06:45.421] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(081e5741-41c0-4273-bc6a-9d2176ebadc9) - "----- Response Elapsed time: 53 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "081e5741-41c0-4273-bc6a-9d2176ebadc9"]  
+===========================================
+[2023-04-06T11:06:45.446] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(40816f59-12e6-404d-983f-9d53273d3e3b) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "40816f59-12e6-404d-983f-9d53273d3e3b"]  
+===========================================
+[2023-04-06T11:06:45.447] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(40816f59-12e6-404d-983f-9d53273d3e3b) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "40816f59-12e6-404d-983f-9d53273d3e3b"]  
+===========================================
+[2023-04-06T11:06:50.313] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(6a094e60-c27a-48a4-83a9-0d75046116e1) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 7 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "6a094e60-c27a-48a4-83a9-0d75046116e1"]  
+===========================================
+[2023-04-06T11:06:50.335] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(eb7b11c3-af41-496e-ac95-6b4f7ad65cee) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "eb7b11c3-af41-496e-ac95-6b4f7ad65cee"]  
+===========================================
+[2023-04-06T11:06:50.359] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(eb7b11c3-af41-496e-ac95-6b4f7ad65cee) - "----- Response Elapsed time: 23 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "eb7b11c3-af41-496e-ac95-6b4f7ad65cee"]  
+===========================================
+[2023-04-06T11:06:50.373] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(4ee56fd2-55aa-411f-a3a2-be6360c2a40e) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "4ee56fd2-55aa-411f-a3a2-be6360c2a40e"]  
+===========================================
+[2023-04-06T11:06:50.373] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(4ee56fd2-55aa-411f-a3a2-be6360c2a40e) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "4ee56fd2-55aa-411f-a3a2-be6360c2a40e"]  
+===========================================
+[2023-04-06T11:06:50.597] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(6a094e60-c27a-48a4-83a9-0d75046116e1) - "----- Response Elapsed time: 284 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "6a094e60-c27a-48a4-83a9-0d75046116e1"]  
+===========================================
+[2023-04-06T11:06:52.507] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(70dee786-1764-4c93-a3f4-c60581670a58) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "70dee786-1764-4c93-a3f4-c60581670a58"]  
+===========================================
+[2023-04-06T11:06:52.538] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(70dee786-1764-4c93-a3f4-c60581670a58) - "----- Response Elapsed time: 31 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "70dee786-1764-4c93-a3f4-c60581670a58"]  
+===========================================
+[2023-04-06T11:06:52.555] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f0435617-36e1-42ca-ad22-12044b4051a2) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f0435617-36e1-42ca-ad22-12044b4051a2"]  
+===========================================
+[2023-04-06T11:06:52.555] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f0435617-36e1-42ca-ad22-12044b4051a2) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f0435617-36e1-42ca-ad22-12044b4051a2"]  
+===========================================
+[2023-04-06T11:06:56.274] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f8b99e0b-5a36-4202-a02e-7038e80e2f11) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Edit??todoName=y&id=2  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f8b99e0b-5a36-4202-a02e-7038e80e2f11"]  
+===========================================
+[2023-04-06T11:06:56.323] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f8b99e0b-5a36-4202-a02e-7038e80e2f11) - "----- Response Elapsed time: 49 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f8b99e0b-5a36-4202-a02e-7038e80e2f11"]  
+===========================================
+[2023-04-06T11:06:56.331] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(2dd89d9d-adca-472d-89d6-d0ed582c0b1f) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "2dd89d9d-adca-472d-89d6-d0ed582c0b1f"]  
+===========================================
+[2023-04-06T11:06:56.355] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(2dd89d9d-adca-472d-89d6-d0ed582c0b1f) - "----- Response Elapsed time: 24 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "2dd89d9d-adca-472d-89d6-d0ed582c0b1f"]  
+===========================================
+[2023-04-06T11:06:56.370] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(b602f8a3-fa1d-459c-88f6-5b99c6933342) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "b602f8a3-fa1d-459c-88f6-5b99c6933342"]  
+===========================================
+[2023-04-06T11:06:56.370] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(b602f8a3-fa1d-459c-88f6-5b99c6933342) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "b602f8a3-fa1d-459c-88f6-5b99c6933342"]  
+===========================================
+[2023-04-06T11:20:45.076] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(b076be50-ecce-4364-aff0-6d1864410da5) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "b076be50-ecce-4364-aff0-6d1864410da5"]  
+===========================================
+[2023-04-06T11:20:45.475] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(b076be50-ecce-4364-aff0-6d1864410da5) - "----- Response Elapsed time: 406 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "b076be50-ecce-4364-aff0-6d1864410da5"]  
+===========================================
+[2023-04-06T11:20:47.923] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(e237d1a4-162d-4323-93f8-bcf2cfb2ca26) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "e237d1a4-162d-4323-93f8-bcf2cfb2ca26"]  
+===========================================
+[2023-04-06T11:20:49.527] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(e237d1a4-162d-4323-93f8-bcf2cfb2ca26) - "----- Response Elapsed time: 1604 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "e237d1a4-162d-4323-93f8-bcf2cfb2ca26"]  
+===========================================
+[2023-04-06T11:20:49.587] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(1db8e170-2118-4047-910b-3ebe4f2c4d31) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "1db8e170-2118-4047-910b-3ebe4f2c4d31"]  
+===========================================
+[2023-04-06T11:20:49.587] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(1db8e170-2118-4047-910b-3ebe4f2c4d31) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "1db8e170-2118-4047-910b-3ebe4f2c4d31"]  
+===========================================
+[2023-04-06T11:20:51.061] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(bd50a1a1-a952-4a72-b5e5-a5b898df4203) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Delete/2??ToDoName=y  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "bd50a1a1-a952-4a72-b5e5-a5b898df4203"]  
+===========================================
+[2023-04-06T11:20:51.373] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(bd50a1a1-a952-4a72-b5e5-a5b898df4203) - "----- Response Elapsed time: 312 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "bd50a1a1-a952-4a72-b5e5-a5b898df4203"]  
+===========================================
+[2023-04-06T11:20:51.384] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(920a6357-13d2-4a15-977a-d2efc2e02c44) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "920a6357-13d2-4a15-977a-d2efc2e02c44"]  
+===========================================
+[2023-04-06T11:20:51.419] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(920a6357-13d2-4a15-977a-d2efc2e02c44) - "----- Response Elapsed time: 35 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "920a6357-13d2-4a15-977a-d2efc2e02c44"]  
+===========================================
+[2023-04-06T11:20:51.459] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(fa3cc3b1-be5f-4c96-893f-60aa7d2c867c) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "fa3cc3b1-be5f-4c96-893f-60aa7d2c867c"]  
+===========================================
+[2023-04-06T11:20:51.459] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(fa3cc3b1-be5f-4c96-893f-60aa7d2c867c) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "fa3cc3b1-be5f-4c96-893f-60aa7d2c867c"]  
+===========================================
+[2023-04-06T11:20:52.003] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(d2fc02e7-7115-424f-ab1f-0898596b14f1) - "----- Receiving GET request from Uri: https://localhost:44320//Home/Delete/1??ToDoName=t  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "d2fc02e7-7115-424f-ab1f-0898596b14f1"]  
+===========================================
+[2023-04-06T11:20:52.025] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(d2fc02e7-7115-424f-ab1f-0898596b14f1) - "----- Response Elapsed time: 22 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "d2fc02e7-7115-424f-ab1f-0898596b14f1"]  
+===========================================
+[2023-04-06T11:20:52.028] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(35c908d7-33b3-4acb-b8c4-1b991aab4e07) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "35c908d7-33b3-4acb-b8c4-1b991aab4e07"]  
+===========================================
+[2023-04-06T11:20:52.049] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(35c908d7-33b3-4acb-b8c4-1b991aab4e07) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "35c908d7-33b3-4acb-b8c4-1b991aab4e07"]  
+===========================================
+[2023-04-06T11:20:52.065] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(c36717d3-4403-42fa-9892-bea100aec82e) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "c36717d3-4403-42fa-9892-bea100aec82e"]  
+===========================================
+[2023-04-06T11:20:52.065] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(c36717d3-4403-42fa-9892-bea100aec82e) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "c36717d3-4403-42fa-9892-bea100aec82e"]  
+===========================================
+[2023-04-06T11:20:54.979] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:32]) [(65b43826-7c7f-49db-a09c-5cda6238e6fb) - "----- Receiving POST request from Uri: https://localhost:44320//Home/Create - Request Content Type: application/x-www-form-urlencoded; charset=UTF-8 - Content Length 6 " "RequestLoggingMiddleware.cs" "InvokeAsync" 32 "65b43826-7c7f-49db-a09c-5cda6238e6fb"]  
+===========================================
+[2023-04-06T11:20:54.983] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(5d8f3653-ca3f-434f-ab62-08b30fdf68a7) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "5d8f3653-ca3f-434f-ab62-08b30fdf68a7"]  
+===========================================
+[2023-04-06T11:20:55.008] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(5d8f3653-ca3f-434f-ab62-08b30fdf68a7) - "----- Response Elapsed time: 25 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "5d8f3653-ca3f-434f-ab62-08b30fdf68a7"]  
+===========================================
+[2023-04-06T11:20:55.025] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(71587544-b84b-441b-baf5-58dcf22380d5) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "71587544-b84b-441b-baf5-58dcf22380d5"]  
+===========================================
+[2023-04-06T11:20:55.025] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(71587544-b84b-441b-baf5-58dcf22380d5) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "71587544-b84b-441b-baf5-58dcf22380d5"]  
+===========================================
+[2023-04-06T11:20:55.069] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(65b43826-7c7f-49db-a09c-5cda6238e6fb) - "----- Response Elapsed time: 90 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "65b43826-7c7f-49db-a09c-5cda6238e6fb"]  
+===========================================
+[2023-04-06T11:20:55.676] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(f47961d2-2901-471a-b4a1-ff8a840915db) - "----- Receiving GET request from Uri: https://localhost:44320//Home/ToDo  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "f47961d2-2901-471a-b4a1-ff8a840915db"]  
+===========================================
+[2023-04-06T11:20:55.698] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(f47961d2-2901-471a-b4a1-ff8a840915db) - "----- Response Elapsed time: 21 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "f47961d2-2901-471a-b4a1-ff8a840915db"]  
+===========================================
+[2023-04-06T11:20:55.722] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(48bf83c2-eda1-49cc-9d1e-f3e53370ee24) - "----- Receiving GET request from Uri: https://localhost:44320//Scripts/jquery-1.10.2.min.js  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "48bf83c2-eda1-49cc-9d1e-f3e53370ee24"]  
+===========================================
+[2023-04-06T11:20:55.723] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(48bf83c2-eda1-49cc-9d1e-f3e53370ee24) - "----- Response Elapsed time: 0 ms, Content Type:  - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "48bf83c2-eda1-49cc-9d1e-f3e53370ee24"]  
+===========================================

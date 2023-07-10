@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DevOpsWebApp.Models.Employee>
+@{
+    ViewData["Title"] = "Employees page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width" />
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Employees</h1>
+    </div>
+    <table class="table">
+
+        @foreach (Employee item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.FullName)
+                </td>
+                <td>
+                    <button onclick="submit2(@item.Id)">Edit</button>
+                    @Html.ActionLink("Delete","Delete","Home",item,null)
+                </td>
+            </tr>
+        }
+    </table>
+    <input type="text" id="name" name="lname" placeholder="What to do">
+    <button onclick="submit()">Add</button>
+
+</body>
+</html>
+
+<script src="~/Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script>
+    function submit() {
+        var Name = $('#name').val();
+
+        $.post("/Home/Create", { name: Name });
+        window.location.reload();
+
+    }
+    function submit2(Id){
+        window.location.href = "@Url.Action("Edit", "Home")" + "?name=" + $('#name').val() + "&id=" + Id;
+    }
+</script>

@@ -1,0 +1,5 @@
+
+[2023-03-16T13:58:36.612] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:InvokeAsync:37]) [(fd022c4c-9dc8-4095-bcfa-a3db8d5ea94c) - "----- Receiving GET request from Uri: https://localhost:44320//  " "RequestLoggingMiddleware.cs" "InvokeAsync" 37 "fd022c4c-9dc8-4095-bcfa-a3db8d5ea94c"]  
+===========================================
+[2023-03-16T13:58:38.925] INFOR - ([DevOpsWebApp.Logging.Logger][RequestLoggingMiddleware.cs:HandleResponse:89]) [(fd022c4c-9dc8-4095-bcfa-a3db8d5ea94c) - "----- Response Elapsed time: 2335 ms, Content Type: text/html; charset=utf-8 - Content Length: " "RequestLoggingMiddleware.cs" "HandleResponse" 89 "fd022c4c-9dc8-4095-bcfa-a3db8d5ea94c"]  
+===========================================

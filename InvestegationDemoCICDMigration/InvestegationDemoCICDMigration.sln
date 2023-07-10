@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestegationDemoCICDMigration", "InvestegationDemoCICDMigration.csproj", "{B29060BB-705E-4E43-81EC-F28596525101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{8CB89468-C9CB-4ED6-9BA7-5CC5426E1CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestegationDemoTest", "..\InvestegationDemoTest\InvestegationDemoTest.csproj", "{FEDB09F9-DDC4-4BC6-BEE6-4A8B3F62BBEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29060BB-705E-4E43-81EC-F28596525101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29060BB-705E-4E43-81EC-F28596525101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29060BB-705E-4E43-81EC-F28596525101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29060BB-705E-4E43-81EC-F28596525101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDB09F9-DDC4-4BC6-BEE6-4A8B3F62BBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDB09F9-DDC4-4BC6-BEE6-4A8B3F62BBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDB09F9-DDC4-4BC6-BEE6-4A8B3F62BBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDB09F9-DDC4-4BC6-BEE6-4A8B3F62BBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEDB09F9-DDC4-4BC6-BEE6-4A8B3F62BBEF} = {8CB89468-C9CB-4ED6-9BA7-5CC5426E1CE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6422C2E-36DE-43C7-8FAC-ADDF66D1D67C}
+	EndGlobalSection
+EndGlobal
