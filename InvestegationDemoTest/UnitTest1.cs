@@ -9,7 +9,7 @@ namespace InvestegationDemoTest
             //arrange
             double a = 5;
             double b = 3;
-            double expected = 89;
+            double expected = 8;
 
             //act
             var actual = InvestegationDemoCICDMigration.Helpers.CommonHelpers.AddTwoNumbers(a, b);
